@@ -1,11 +1,5 @@
 # Rejected Records Methodology & Forensic Validation Strategy
 
-## Overview
-
-This document details the systematic approach used to identify, flag, and classify 241,671 anomalous transaction records (10.2% of raw data) and the decision framework for treating them in latent-demand modeling.
-
----
-
 ## Section 1: Rejection Criteria and Implementation
 
 ### 1.1 Layered Quality Filtering

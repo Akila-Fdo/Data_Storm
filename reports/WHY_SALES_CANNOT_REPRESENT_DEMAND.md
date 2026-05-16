@@ -1,13 +1,5 @@
 # Why Historical Sales Cannot Represent True Demand: Censoring, Allocation, and Infrastructure Constraints
 
-## Executive Summary
-
-Traditional demand forecasting assumes observed sales volume reflects true customer demand. In FMCG distribution to traditional trade outlets in emerging markets, this assumption breaks down. We demonstrate through transaction forensics that **observed sales systematically underestimate true demand** due to three binding constraints: (1) fixed supply allocation by distributors, (2) physical cooler/freezer capacity constraints, and (3) sales representative effort/time allocation.
-
-This analysis justifies the entire premise of "latent maximum monthly purchase potential" as distinct from "observed historical sales."
-
----
-
 ## Part 1: The Censoring Problem in Formal Terms
 
 ### 1.1 The Demand Equation

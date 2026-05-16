@@ -1,11 +1,5 @@
 # Executive Brief: Data Forensics Insights for Latent Demand Modeling
 
-## Quick Reference for Judges
-
-This brief summarizes the forensic investigation findings and their direct implications for estimating latent maximum monthly purchase potential in the Data Storm competition.
-
----
-
 ## The 10-Second Summary
 
 ✅ **Data Quality**: 99.8% of 2.376M transactions are valid  
@@ -87,43 +81,6 @@ This brief summarizes the forensic investigation findings and their direct impli
 - This explains why "potential-based allocation" is valuable—average allocation misses this upside
 
 **Handling Strategy**: ✅ **Feature-engineer this pattern** as "volume ceiling signal" in demand model
-
----
-
-## The Forensic Gold Standard: How to Approach Competition Judging
-
-### What Judges Will Look For
-
-1. **Technical Correctness** ✅
-   - Data quality validation applied properly
-   - Null/duplicate checks executed correctly
-   - Rejection criteria documented and justified
-
-2. **Business Sophistication** 🏆 *This is where we excel*
-   - Recognize that "anomalies" can be economically meaningful (SKU_09)
-   - Identify constraints that censor demand (cooler capacity, allocation)
-   - Explain WHY historical sales ≠ true demand
-   - Use forensics to guide model design, not just clean data
-
-3. **Strategic Insight** 🏆 *Judges will be impressed*
-   - Connect data patterns to business operations (ERP reversals, supply allocation)
-   - Recommend changes to operations based on data (reallocate from low-demand outlets)
-   - Frame demand estimation as solving a business problem (optimize allocation)
-   - Quantify the upside (0.44-1.8% hidden annual demand, or ₨XX crores revenue lift)
-
-### Where Most Teams Fail
-
-❌ **Data Blindness**: Reject all outliers without asking *why they exist*  
-❌ **Statistical Arrogance**: Trust statistical tests over business logic  
-❌ **Feature Poverty**: Use only obvious features (outlet size, region), miss constraint signals  
-❌ **Narrative Weakness**: Say "we cleaned the data" without explaining *why* cleaning matters  
-
-### Where We Stand Out
-
-✅ **Forensic Rigor**: Investigated root causes; documented operational context  
-✅ **Judgment Calls**: Made intelligent decisions (retain SKU_09, model censoring)  
-✅ **Feature Innovation**: Capacity signals, variance signals, allocation signals  
-✅ **Narrative Power**: Tell the story of demand suppression; make judges understand why latent demand matters  
 
 ---
 
@@ -215,22 +172,6 @@ A: "Our data isn't dirty; it's complex. Complexity reflects real-world constrain
 **Q: Didn't you fail the 'data cleaning' step?**
 
 A: "We succeeded at the harder step: data *interpretation*. Anyone can follow a data cleaning checklist. We investigated why patterns exist, which ones represent real business phenomena (SKU_09, cooler capacity) vs. operational failures (ERP reversals), and made strategic decisions accordingly."
-
----
-
-## Final Positioning
-
-### For Technical Judges
-
-> "We applied a multi-layer validation framework, investigated root causes of 241,671 anomalous records, made evidence-based decisions about retention vs. rejection, and engineered features that capture the constraints driving demand censoring. Our approach treats data forensics as part of modeling strategy, not separate from it."
-
-### For Business Judges
-
-> "This dataset reveals that allocation and infrastructure constraints censor true outlet demand. We identified these constraints through forensic analysis and will model them explicitly. This enables potential-based allocation optimization that can increase distributor efficiency by 5-10% while maintaining inventory levels—a direct bottom-line impact."
-
-### For Competition Judges Overall
-
-> "We demonstrate that winning analytics in emerging markets requires understanding local business context—ERP system characteristics, distributor allocation policies, rep effort structures, equipment constraints—not just applying statistical rules. Our forensic investigation is our competitive advantage."
 
 ---
 

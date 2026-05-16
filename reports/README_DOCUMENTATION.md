@@ -1,11 +1,5 @@
 # Data Forensics Documentation Index
 
-## Overview
-
-This directory contains comprehensive forensic analysis and professional documentation for the Data Storm 7.0 Advanced Analytics Competition, focused on estimating latent maximum monthly purchase potential under censored demand conditions.
-
----
-
 ## Document Structure
 
 ### 1. **FORENSIC_ANALYSIS_REPORT.md** (Primary Report)
