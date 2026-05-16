@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+missingno
+scikit-learn
+geopandas
+osmnx
+shapely
+geopy
+pyogrio
+rtree
+jupyter
+notebook
+openpyxl
